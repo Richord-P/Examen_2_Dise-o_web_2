@@ -1,0 +1,273 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Framework7</title>
+    <link href="css/framework7.min.css" rel="stylesheet">
+    <link href="css/framework7.bundle.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body class="color-theme-red">
+
+
+
+    <div id="app">
+
+        <!-- Your main view, should have "view-main" class -->
+        <div class="view view-main view-init">
+            <!-- Initial Page, "data-name" contains page name -->
+            <section class="panel panel-left panel-cover">
+                <div class="block">
+                    <div class="row">
+                        <article class="col-20">
+                            <img src="img/EadRCX5U4AA7CYe.png" alt="perfil" class="img-fluid img-p">
+                        </article>
+                        <article class="col-80">
+
+                            <b> Richard Padgett</b>
+                            <span class="letra_b">richard.padgett2@gmail.com</span>
+
+                        </article>
+
+
+                    </div>
+                </div>
+
+                <div class="list">
+                    <ul class="list-menu">
+
+                        <li>
+                            <a href="/home/" class="item-link item-content panel-close">
+                                <div class="item-media"> <span class="material-icons">account_circle</span> </div>
+                                <div class="item-inner"> Inicio </div>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="/perfil/" class="item-link item-content panel-close">
+                                <div class="item-media"> <span class="material-icons">search</span> </div>
+
+                                <div class="item-inner"> Perfil </div>
+                            </a>
+                        </li>
+
+
+                        <li>
+                            <a href="cate" class="item-link item-content panel-close">
+                                <div class="item-media"> <span class="material-icons">list</span> </div>
+
+                                <div class="item-inner"> Categorias </div>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="item-link item-content panel-close">
+                                <div class="item-media"> <span class="material-icons">local_offer</span> </div>
+                                <div class="item-inner"> Promociones </div>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="item-link item-content panel-close">
+                                <div class="item-media"> <span class="material-icons">shopping_basket</span> </div>
+                                <div class="item-inner"> Mis Ordenes </div>
+                            </a>
+                        </li>
+
+
+
+
+
+
+                    </ul>
+
+
+
+
+                </div>
+            </section>
+            <section data-name="home" class="page">
+
+                <!-- Top Navbar -->
+                <nav class="navbar">
+                    <div class="navbar-bg"></div>
+                    <div class="navbar-inner">
+                        <div class="left">
+                            <a href="#" class="link panel-open" data-panel="left"><span class="material-icons">
+menu
+</span></a>
+                        </div>
+                        <div class="title">Flores</div>
+                    </div>
+                </nav>
+
+
+                <!-- Scrollable page content -->
+                <article class="page-content">
+                    <div class="block home_1">
+
+
+                    </div>
+
+                    <h2 class="block-title">Featured</h2>
+                    <div class="swiper-container swiper-init">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+
+                                <article class="card card-food">
+                                    <div class="card-header">
+
+                                        <img src="img/flores-lindas-wallpaper-1280x720.jpg" alt="slide1" class="img-fluid">
+
+
+                                    </div>
+
+
+                                </article>
+
+
+
+
+
+                            </div>
+
+                            <div class="swiper-slide">
+
+                                <article class="card card-food">
+                                    <div class="card-header">
+
+                                        <img src="img/flores-rosas-wallpaper-1280x720.jpg" alt="slide2" class="img-fluid">
+
+
+                                    </div>
+
+
+                                </article>
+
+
+
+
+                            </div>
+
+
+
+                        </div>
+
+                    </div>
+
+                    <!-- Categorias-->
+                    <h2 id="cate" class="block-title">Categorias</h2>
+                    <div class="block categorias">
+                        <div class="row">
+                            <article class="col-50">
+                                <a href="/Cumpleanos/">
+                                    <div class="card">
+                                        <div class="card-content">
+                                            <div class="cat">
+                                                <img src="img/cumpleanos.jpg" alt=" " class="img-fluid">
+                                            </div>
+
+                                            Cumpleaños
+                                        </div>
+                                    </div>
+                                </a>
+                            </article>
+                            <article class="col-50">
+                                <a href="/sanvalentin/">
+                                    <div class="card">
+                                        <div class="card-content">
+                                            <div class="cat">
+                                                <img src="img/Divertidas-decoraciones-para-el-Dia-de-San-Valentin-3-480x720.jpg" alt=" " class="img-fluid">
+
+                                            </div>
+                                            San Valentin
+
+                                        </div>
+
+
+                                    </div>
+                                </a>
+                            </article>
+
+                        </div>
+
+                        <div class="row">
+                            <article class="col-50">
+                                <a href="/aniversarios/">
+                                    <div class="card">
+                                        <div class="card-content">
+                                            <div class="cat">
+                                                <img src="img/aniversarios.jpg" alt=" " class="img-fluid">
+                                            </div>
+                                            Aniversarios
+                                        </div>
+                                    </div>
+                                </a>
+                            </article>
+                            <article class="col-50">
+                                <a href="/bodas/">
+                                    <div class="card">
+                                        <div class="card-content">
+                                            <div class="cat">
+                                                <img src="img/boda.jpg" alt=" " class="img-fluid">
+
+                                            </div>
+                                            Bodas
+
+                                        </div>
+
+
+                                    </div>
+                                </a>
+                            </article>
+                        </div>
+
+
+
+
+                    </div>
+
+
+                </article>
+            </section>
+
+            <div class="toolbar tabbar toolbar-bottom">
+                <div class="toolbar-inner">
+                    <a href="/home/" class="link"><span class="material-icons">home</span></a>
+                    <a href="#" class="link"><span class="material-icons">local_mall</span></a>
+                    <a href="#" class="link"><span class="material-icons">shopping_basket</span></a>
+                    <a href="/perfil/" class="link"><span class="material-icons">person</span></a>
+                </div>
+
+            </div>
+
+        </div>
+
+        </section>
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script src="js/framework7.min.js"></script>
+    <script src="js/framework7-lite.bundle.min.js"></script>
+    <script src="js/my-app.js"></script>
+
+
+
+
+</body>
+
+</html>
